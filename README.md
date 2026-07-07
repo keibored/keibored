@@ -14,7 +14,6 @@
 ## 👩‍💻 About Me
 
 - 🎓 BS Computer Science Student at **Tarlac State University**
-- 🏅 Dean's Lister
 - 💙 Passionate about Web Development
 - 🌱 Currently exploring React and modern web technologies
 - 📚 Love turning ideas into real projects
