@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 1090" width="920" height="1090" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fdfbff"></stop><stop offset="1" stop-color="#f7f0fd"></stop></linearGradient>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9a4e8"></stop><stop offset="0.5" stop-color="#ab7ce0"></stop><stop offset="1" stop-color="#d0b0ee"></stop></linearGradient>
+    <radialGradient id="avatar" cx="0.38" cy="0.3" r="0.75"><stop offset="0" stop-color="#f3e8fd"></stop><stop offset="1" stop-color="#a875db"></stop></radialGradient>
+    <linearGradient id="bow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbf5ff"></stop><stop offset="1" stop-color="#cfaef0"></stop></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9a5fd6"></stop><stop offset="1" stop-color="#c8a7ee"></stop></linearGradient>
+    <linearGradient id="streak" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#b487e6"></stop><stop offset="0.6" stop-color="#8342bd"></stop><stop offset="1" stop-color="#6d2fa8"></stop></linearGradient>
+    <linearGradient id="sparkFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b98fe6" stop-opacity="0.55"></stop><stop offset="1" stop-color="#b98fe6" stop-opacity="0"></stop></linearGradient>
+    <linearGradient id="sparkLine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9a5fd6"></stop><stop offset="1" stop-color="#c8a7ee"></stop></linearGradient>
+    <pattern id="scallop" width="26" height="26" patternUnits="userSpaceOnUse" x="30" y="135"><circle cx="13" cy="13" r="13" fill="#fdfbff"></circle></pattern>
+    <filter id="cardShadow" x="-20%" y="-10%" width="140%" height="130%"><feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#7c3fb5" flood-opacity="0.28"></feDropShadow></filter>
+    <clipPath id="cardClip"><rect x="30" y="30" width="860" height="1035" rx="34"></rect></clipPath>
+    
+  </defs>
+
+  
+  <rect x="30" y="30" width="860" height="1035" rx="34" fill="url(#card)" filter="url(#cardShadow)"></rect>
+
+  <g clip-path="url(#cardClip)">
+    
+    <rect x="30" y="30" width="860" height="118" fill="url(#header)"></rect>
+    <circle cx="80" cy="60" r="46" fill="#ffffff" opacity="0.13"></circle>
+    <circle cx="820" cy="150" r="40" fill="#ffffff" opacity="0.10"></circle>
+    <text class="serif" x="70" y="82" font-size="17" font-style="italic" fill="#ffffff" opacity="0.9" letter-spacing="1.5">˚₊‧ ୨ ♡ ୧ ‧₊˚</text>
+    <text class="serif" x="850" y="82" font-size="17" font-style="italic" fill="#ffffff" opacity="0.9" text-anchor="end" letter-spacing="1.5">˚₊‧ ୨ ♡ ୧ ‧₊˚</text>
+    <rect x="30" y="135" width="860" height="26" fill="url(#scallop)"></rect>
+    
+    <g id="bow" transform="translate(431,40)">
+      <path d="M28 19 C20 6, 4 4, 5 16 C4 28, 20 27, 28 19 Z" fill="url(#bow)" stroke="#9a6ad0" stroke-width="1.3"></path>
+      <path d="M28 19 C36 6, 52 4, 51 16 C52 28, 36 27, 28 19 Z" fill="url(#bow)" stroke="#9a6ad0" stroke-width="1.3"></path>
+      <path d="M26 20 C22 27, 20 33, 21 37 L27 22 Z" fill="url(#bow)" stroke="#9a6ad0" stroke-width="1.1"></path>
+      <path d="M30 20 C34 27, 36 33, 35 37 L29 22 Z" fill="url(#bow)" stroke="#9a6ad0" stroke-width="1.1"></path>
+      <ellipse cx="28" cy="19" rx="6" ry="7" fill="url(#bow)" stroke="#9a6ad0" stroke-width="1.3"></ellipse>
+    </g>
+    
+    <text class="serif" x="460" y="255" font-size="42" font-weight="700" fill="#7a3fb5" text-anchor="middle">keibored</text>
+    <text class="serif" x="460" y="310" font-size="15" font-style="italic" fill="#9a7bb8" text-anchor="middle" letter-spacing="0.5">˚₊‧♡ aspiring full-stack dev ♡‧₊˚</text>
+
+    
+    <text x="460" y="352" font-size="14.5" fill="#6e5883" text-anchor="middle">aspiring full-stack developer crafting soft, thoughtful interfaces and the logic</text>
+    <text x="460" y="376" font-size="14.5" fill="#6e5883" text-anchor="middle">behind them — learning every day, shipping with heart, one commit at a time. ꒰ ♡ ꒱</text>
+
+    
+    <g class="sec" style="animation-delay:0.35s">
+      <g>
+        <rect x="78" y="412" width="244" height="168" rx="22" fill="#f4ecfc" stroke="#e0caf4"></rect>
+        <circle cx="200" cy="482" r="34" fill="none" stroke="#ecdefa" stroke-width="9"></circle>
+        <circle class="ring" cx="200" cy="482" r="34" fill="none" stroke="#9a5fd6" stroke-width="9" stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="59.8" transform="rotate(-90 200 482)"></circle>
+        <text class="serif" x="200" y="491" font-size="24" font-weight="700" fill="#7a3fb5" text-anchor="middle">34</text>
+        <text x="200" y="548" font-size="10" fill="#a07dc0" text-anchor="middle" letter-spacing="2">REPOS</text>
+      </g>
+      <g>
+        <rect x="338" y="412" width="244" height="168" rx="22" fill="#f4ecfc" stroke="#e0caf4"></rect>
+        <circle cx="460" cy="482" r="34" fill="none" stroke="#ecdefa" stroke-width="9"></circle>
+        <circle class="ring" cx="460" cy="482" r="34" fill="none" stroke="#8a4fc4" stroke-width="9" stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="25.6" transform="rotate(-90 460 482)" style="animation-delay:0.45s"></circle>
+        <text class="serif" x="460" y="491" font-size="24" font-weight="700" fill="#7a3fb5" text-anchor="middle">1.2k</text>
+        <text x="460" y="548" font-size="10" fill="#a07dc0" text-anchor="middle" letter-spacing="2">FOLLOWERS</text>
+      </g>
+      <g>
+        <rect x="598" y="412" width="244" height="168" rx="22" fill="#f4ecfc" stroke="#e0caf4"></rect>
+        <circle cx="720" cy="482" r="34" fill="none" stroke="#ecdefa" stroke-width="9"></circle>
+        <circle class="ring" cx="720" cy="482" r="34" fill="none" stroke="#b98fe6" stroke-width="9" stroke-linecap="round" stroke-dasharray="213.6" stroke-dashoffset="85.4" transform="rotate(-90 720 482)" style="animation-delay:0.6s"></circle>
+        <text class="serif" x="720" y="491" font-size="24" font-weight="700" fill="#7a3fb5" text-anchor="middle">480</text>
+        <text x="720" y="548" font-size="10" fill="#a07dc0" text-anchor="middle" letter-spacing="2">STARS</text>
+      </g>
+    </g>
+
+    
+    <g class="sec" style="animation-delay:0.5s">
+      <rect x="78" y="620" width="466" height="150" rx="20" fill="#f4ecfc" stroke="#e6d5f6"></rect>
+      <text class="serif" x="100" y="656" font-size="16" font-weight="700" fill="#8342bd">weekly activity</text>
+      <text x="524" y="652" font-size="11" fill="#a07dc0" text-anchor="end" letter-spacing="1">LAST 12 WKS</text>
+      <path id="sparkarea" d="M100,724.2 L138.7,711.2 L177.4,717.7 L216.1,698.3 L254.8,704.8 L293.5,685.4 L332.2,691.8 L370.9,672.5 L409.6,698.3 L448.3,678.9 L487,666 L525.7,672.5 L525.7,752 L100,752 Z" fill="url(#sparkFill)"></path>
+      <path id="spark" d="M100,724.2 L138.7,711.2 L177.4,717.7 L216.1,698.3 L254.8,704.8 L293.5,685.4 L332.2,691.8 L370.9,672.5 L409.6,698.3 L448.3,678.9 L487,666 L525.7,672.5" fill="none" stroke="url(#sparkLine)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <g class="sec" style="animation-delay:0.6s">
+      <rect x="564" y="620" width="278" height="150" rx="20" fill="url(#streak)"></rect>
+      <text class="heart" x="666" y="700" font-size="26" fill="#ffffff" text-anchor="middle">♡</text>
+      <text class="serif" x="712" y="708" font-size="46" font-weight="700" fill="#ffffff" text-anchor="middle">18</text>
+      <text x="703" y="726" font-size="10" fill="#f0e2fb" text-anchor="middle" letter-spacing="3">DAY STREAK</text>
+      <text x="703" y="748" font-size="11" fill="#ffffff" text-anchor="middle" letter-spacing="2">♥ ♥ ♥ ♥ ♥ ♥ ♡</text>
+    </g>
+
+    
+    <g class="sec" style="animation-delay:0.4s">
+      <text class="serif" x="78" y="820" font-size="19" font-weight="700" fill="#8342bd">♡ tech stack</text>
+      <g font-size="12.5" fill="#8149bd" font-weight="600">
+        <rect x="78" y="838" width="118" height="34" rx="17" fill="#f2e6fb" stroke="#ddc6f2"></rect><text x="137" y="860" text-anchor="middle">TypeScript</text>
+        <rect x="206" y="838" width="86" height="34" rx="17" fill="#f2e6fb" stroke="#ddc6f2"></rect><text x="249" y="860" text-anchor="middle">React</text>
+        <rect x="302" y="838" width="94" height="34" rx="17" fill="#f2e6fb" stroke="#ddc6f2"></rect><text x="349" y="860" text-anchor="middle">Next.js</text>
+        <rect x="78" y="882" width="98" height="34" rx="17" fill="#f2e6fb" stroke="#ddc6f2"></rect><text x="127" y="904" text-anchor="middle">Node.js</text>
+        <rect x="186" y="882" width="104" height="34" rx="17" fill="#f2e6fb" stroke="#ddc6f2"></rect><text x="238" y="904" text-anchor="middle">Tailwind</text>
+        <rect x="300" y="882" width="70" height="34" rx="17" fill="#f2e6fb" stroke="#ddc6f2"></rect><text x="335" y="904" text-anchor="middle">Vite</text>
+        <rect x="78" y="926" width="66" height="34" rx="17" fill="#f2e6fb" stroke="#ddc6f2"></rect><text x="111" y="948" text-anchor="middle">Git</text>
+        <rect x="154" y="926" width="86" height="34" rx="17" fill="#f2e6fb" stroke="#ddc6f2"></rect><text x="197" y="948" text-anchor="middle">Figma</text>
+      </g>
+    </g>
+
+    
+    <g class="sec" style="animation-delay:0.5s">
+      <text class="serif" x="570" y="820" font-size="19" font-weight="700" fill="#8342bd">♡ most used</text>
+      <text x="570" y="852" font-size="12.5" font-weight="600" fill="#5f4a72">TypeScript</text>
+      <text class="serif" x="842" y="852" font-size="14" fill="#a07dc0" text-anchor="end">82%</text>
+      <rect x="570" y="860" width="272" height="8" rx="4" fill="#ede2f8"></rect>
+      <rect class="bar" x="570" y="860" width="223" height="8" rx="4" fill="url(#bar)"></rect>
+      <text x="570" y="898" font-size="12.5" font-weight="600" fill="#5f4a72">JavaScript</text>
+      <text class="serif" x="842" y="898" font-size="14" fill="#a07dc0" text-anchor="end">74%</text>
+      <rect x="570" y="906" width="272" height="8" rx="4" fill="#ede2f8"></rect>
+      <rect class="bar" x="570" y="906" width="201" height="8" rx="4" fill="url(#bar)" style="animation-delay:0.15s"></rect>
+      <text x="570" y="944" font-size="12.5" font-weight="600" fill="#5f4a72">CSS / SCSS</text>
+      <text class="serif" x="842" y="944" font-size="14" fill="#a07dc0" text-anchor="end">68%</text>
+      <rect x="570" y="952" width="272" height="8" rx="4" fill="#ede2f8"></rect>
+      <rect class="bar" x="570" y="952" width="185" height="8" rx="4" fill="url(#bar)" style="animation-delay:0.3s"></rect>
+    </g>
+
+    
+    <text x="460" y="1000" font-size="14" fill="#c9b2e8" text-anchor="middle" letter-spacing="2">୨୧ ┈┈┈┈┈┈┈┈┈┈┈┈ ୨୧</text>
+    <g class="sec" style="animation-delay:0.6s" font-size="12.5" font-weight="600" fill="#7a3fb5">
+      <rect x="120" y="1018" width="228" height="34" rx="17" fill="#f2e6fb" stroke="#ddc6f2"></rect>
+      <rect x="138" y="1027" width="16" height="16" rx="4" fill="#8342bd"></rect>
+      <text x="146" y="1039" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="700">in</text>
+      <text x="164" y="1040">linkedin.com/in/keisha-dumpit</text>
+      <rect x="360" y="1018" width="190" height="34" rx="17" fill="#f2e6fb" stroke="#ddc6f2"></rect>
+      <path transform="translate(378,1027) scale(0.667)" fill="#8342bd" d="M12 2A10 10 0 0 0 8.84 21.5c.5.08.66-.22.66-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.16.57.67.48A10 10 0 0 0 12 2Z"></path>
+      <text x="402" y="1040">github.com/keibored</text>
+      <rect x="562" y="1018" width="178" height="34" rx="17" fill="#f2e6fb" stroke="#ddc6f2"></rect>
+      <text x="580" y="1040" fill="#b487e2">♡</text>
+      <text x="596" y="1040">+63 912 345 6789</text>
+    </g>
+  </g>
+</svg>
