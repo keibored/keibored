@@ -1,3 +1,3 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/keibored/keibored/main/gemini-svg.svg" alt="keibored — aspiring full-stack dev" width="760">
-</div>
+<p align="center">
+  <img src="./assets/keisha-banner.svg" width="1200" alt="Keisha — aspiring software engineer" />
+</p>
