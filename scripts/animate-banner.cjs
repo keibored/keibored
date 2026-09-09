@@ -56,7 +56,7 @@ async function main(){
   const overlay=Buffer.from(`<svg width="${W}" height="${H}">${elements}</svg>`);
   await sharp(dst,{raw:{width:W,height:H,channels:3}}).composite([{input:overlay}]).png().toFile(path.join(frames,String(frame).padStart(3,'0')+'.png'));
  }
- execFileSync('ffmpeg',['-v','error','-y','-framerate','10','-i',path.join(frames,'%03d.png'),'-filter_complex','split[a][b];[a]palettegen=stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=3:diff_mode=rectangle','-loop','0',path.join(root,'assets/kei-banner.gif')],{stdio:'inherit'});
+ execFileSync('ffmpeg',['-v','error','-y','-framerate','10','-i',path.join(frames,'%03d.png'),'-filter_complex','split[a][b];[a]palettegen=stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=3:diff_mode=rectangle','-loop','0',path.join(root,'assets/kei-banner-code-a77f50e.gif')],{stdio:'inherit'});
  console.log('Created 80-frame, 8-second seamless looping banner.');
 }
 main().catch(e=>{console.error(e);process.exit(1)});
