@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./assets/kei-banner.gif" width="1000" alt="kei — aspiring software engineer. Cozy lavender coding desk with a sleeping cat, twinkling stars, and an animated music player displaying above all, elegance. Open to work." />
+  <img src="./assets/kei-banner.gif" width="1000" alt='Code on a lavender desk monitor: const developer = { name: "kei", role: "aspiring software engineer", status: "open to work" }; Curtains sway in the breeze, a sleeping cat breathes and moves its tail, and a music player animates beneath the words above all, elegance.' />
 </p>
